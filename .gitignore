@@ -1,0 +1,35 @@
+# Configuration files
+config/config.php
+
+# Upload directories
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Composer
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
